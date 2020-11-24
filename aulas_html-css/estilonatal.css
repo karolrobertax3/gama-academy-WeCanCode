@@ -4,12 +4,12 @@ body{
 }
 h1{
     animation-name: mudacor;
-    animation-duration: 5s;
-    color: red;
+    animation-duration: 15s;
+    color:#ff0066;
 }
 @keyframes mudacor{
-    from{color: red;}
-    to{color: yellow;}
+    from{color:#cc0099;}
+    to{color:#66004d;}
 }
 #cabecalho{
     border: black 1px solid;
