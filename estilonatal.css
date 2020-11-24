@@ -1,8 +1,16 @@
 body{
-    background-color: rgb(180,180,180);
+    background-color: #ffb3b3;
     font-family: sans-serif;
 }
-
+h1{
+    animation-name: mudacor;
+    animation-duration: 5s;
+    color: red;
+}
+@keyframes mudacor{
+    from{color: red;}
+    to{color: yellow;}
+}
 #cabecalho{
     border: black 1px solid;
     border-radius: 10px;
@@ -31,6 +39,7 @@ a{
 }
 #imgLoja{
     width: 100%;
+    
 }
 #tituloDestaque{
     display: flex;
@@ -70,7 +79,7 @@ h3{
 #rodape{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(223, 172, 197);
+    background-color:#ff4d4d;
     margin-top: 30px;
 
 }
